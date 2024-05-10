@@ -11,7 +11,7 @@ $chave = "cole_sua_chave_api";
 #Recebendo dados
 
 if(empty($_POST["renda_atual"])){
-	echo "Você precisa utilizar o formulario para enviar requisições.";
+	echo "Você precisa utilizar o formulario para enviar requisições...";
 	exit;
 }
 
