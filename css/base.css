@@ -1,0 +1,114 @@
+*{
+	font-family:arial;
+	font-size:15px;
+	margin:0;
+}
+.background{
+	background:#000;
+	padding:30px;
+	min-height:1000px;;
+}
+
+.botao{
+	width:200px;
+	padding:10px;
+	background:#dcdcdc;
+	color:black;
+	letter-spacing:3px;
+	border:0;
+	
+}
+.botao:hover{
+	background: #3c6;
+	opacity:0.6;
+	color:white;
+	font-weight:bold;
+}
+.select{
+	padding:10px;
+	background:#000;
+	color:white;
+	width:250px;
+	margin-top:20px;
+	margin-bottom:20px;
+	border:0;
+}
+.select:hover{
+	border:1px solid #3c6;
+	opacity:0.6;
+}
+.center{
+	text-align:center;
+	margin-bottom:20px;
+}
+#menu{
+	background: #131313;
+	padding:10px;
+	color:white;
+	height: 75px;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	overflow: hidden;
+}
+.left{
+	text-align:left;
+}
+.b3{
+	padding:10px;
+	border:0;
+	background:#000;
+	color:white;
+	text-align:center;
+	width:90%;
+	margin-bottom:10px;
+	border:0;
+}
+pre{
+	margin-bottom:50px;
+}
+
+@media(max-width:580px){
+
+#resposta{
+	width:90%;
+	overflow: hidden;
+	white-space:pre-wrap;
+	padding:20px;
+	margin:0 auto;
+}
+.caixa{
+	width:95%;
+	height:auto;
+	padding:10px;
+	text-align:center;
+	background:#242424;
+	color:white;
+	margin:0 auto;
+	
+	
+}
+
+}
+@media(min-width:600px){
+	
+#resposta{
+	width:800px;
+	overflow: hidden;
+	white-space:pre-wrap;
+	margin:0 auto;
+	margin-top:15px;
+}
+.caixa{
+	width:400px;
+	height:auto;
+	padding:10px;
+	text-align:center;
+	background:#242424;
+	color:white;
+	margin:0 auto;
+	
+	
+}	
+}
