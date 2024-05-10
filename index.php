@@ -48,7 +48,7 @@ session_start();
 		  <pre></pre>
 		  
 		  <p align="left">
-		  Esse projeto foi desenvolvido dia 09/05/2023 durante o Curso apresentado pela Alura.
+		  Esse projeto foi desenvolvido dia 09/05/2024 durante o Curso apresentado pela Alura.
 		  O desafio que foi proposto era a criação de um sistema utilizando
 		  a api IA gemini do google.<br/>
 		  <br/>
