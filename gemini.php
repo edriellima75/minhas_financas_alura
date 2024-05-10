@@ -9,6 +9,12 @@ include("./config.php");
 $chave = "cole_sua_chave_api";
 
 #Recebendo dados
+
+if(empty($_POST["renda_atual"])){
+	echo "Você precisa utilizar o formulario para enviar requisições.";
+	exit;
+}
+
 $renda_atual = valid($_POST["renda_atual"]);
 $divida_atual = valid($_POST["divida_atual"]);
 $economia_atual = valid($_POST["economia_atual"]);
