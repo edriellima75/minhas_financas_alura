@@ -4,7 +4,7 @@
 
 # Teste o sistema em https://gemini.uruarainfo.com/
 
-#  Esse projeto foi desenvolvido dia 09/05/2023 durante o Curso apresentado pela Alura.
+#  Esse projeto foi desenvolvido entre os dias 09 e 10 durante o Curso apresentado pela Alura.
 #  O desafio que foi proposto era a criação de um sistema utilizando
 #  a api IA gemini do google.
 
